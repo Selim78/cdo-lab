@@ -7,5 +7,8 @@ conda env create --file dependencies.yml
 conda activate cdo
 ipython kernel install --name=cdo
 ```
-
-Then launch `jupyter lab` in your terminal. Once launched, open the `lab.ipynb` and select `Kernel -> Change kernel -> Python [conda env:cdo]`.
+You can now launch jupyter:
+```bash
+jupyter lab
+```
+Once in jupyter, open `lab.ipynb` and select `Kernel -> Change kernel -> Python [conda env:cdo]`.
